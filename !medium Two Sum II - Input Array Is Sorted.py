@@ -9,4 +9,4 @@ def twoSum(self, numbers: List[int], target: int) -> List[int]:
         elif target < candidate:
             right -= 1
         else:
-            return [left + 1, right + 1]
+            return (left + 1, right + 1)
